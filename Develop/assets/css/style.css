@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -51,7 +51,7 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 1200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -72,37 +72,12 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px;    
 }
-
-    /* benefit styles start */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 1000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.content p {
+    font-size: 19px;
+    line-height: 1.25;
 }
-.benefits div {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits div h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits div img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-    /* benefit styles end */
 
     /* search-engine-optimization styles start */
 .search-engine-optimization {
@@ -119,6 +94,10 @@ p {
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-weight: bolder;
+}
+.search-engine-optimization p {
+    padding-right: 15px;
 }
     /* search-engine-optimization styles end */
 
@@ -137,7 +116,9 @@ p {
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-weight: bolder;
 }
+
     /* online-reputation-management styles end */
 
     /* social-media-marketing styles start */
@@ -155,8 +136,48 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-weight: bolder;
+}
+.social-media-marketing p {
+    padding-right: 15px;
 }
     /* social-media-marketing styles end */
+
+    /* benefit styles start */
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 21%;
+        height: 1200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;    
+    }
+    .benefits div {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+    
+    .benefits div h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .benefits div img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+    
+    .benefits div p {
+        font-size: 19px;
+        padding: 20px;
+    }
+    
+        /* benefit styles end */
 
         /* footer styles start */
 footer {
@@ -166,7 +187,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h3 {
     font-size: 20px;
 }
     /* footer styles end */

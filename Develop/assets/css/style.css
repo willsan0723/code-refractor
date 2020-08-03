@@ -68,28 +68,30 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+    /* content styles start */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;    
 }
+
 .content p {
     font-size: 19px;
     line-height: 1.5;
 }
+
 .content h2 {
     margin-bottom: 20px;
     font-size: 45px;
     font-weight: bolder;
 }
+
 .content img {
     max-height: 250px;
     padding-right: 10px;
 }
 
-    /* search-engine-optimization styles start */
-.search-engine-optimization {
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 350px;
@@ -97,35 +99,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization p {
-    padding-right: 80px;
-}
-    /* search-engine-optimization styles end */
+    /* content styles end */
 
-    /* online-reputation-management styles start */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-    /* online-reputation-management styles end */
-
-    /* social-media-marketing styles start */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing p {
-    padding-right: 80px;
-}
-    /* social-media-marketing styles end */
+    /* margin replaced extra styles and added for spacing issues*/
+.margin {
+    padding-right: 80px;}
 
     /* benefit styles start */
     .benefits {
@@ -139,6 +117,7 @@ p {
         background-color: #2589bd;
         text-align: center;    
     }
+
     .benefits div {
         margin-bottom: 15px;
         color: #ffffff;
@@ -158,8 +137,7 @@ p {
         padding: 20px;
         line-height: 1.25;
         text-align: left;
-    }
-    
+    }    
         /* benefit styles end */
 
         /* footer styles start */

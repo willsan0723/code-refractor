@@ -78,26 +78,27 @@ p {
     font-size: 19px;
     line-height: 1.5;
 }
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.content img {
+    max-height: 250px;
+    padding-right: 10px;
+}
 
     /* search-engine-optimization styles start */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: bolder;
-}
 .search-engine-optimization p {
-    padding-right: 20px;
+    padding-right: 80px;
 }
     /* search-engine-optimization styles end */
 
@@ -105,41 +106,24 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
-.online-reputation-management img {
-    max-height: 200px;
-}
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: bolder;
-}
-
     /* online-reputation-management styles end */
 
     /* social-media-marketing styles start */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
-.social-media-marketing img {
-    max-height: 200px;
-}
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: bolder;
-}
 .social-media-marketing p {
-    padding-right: 20px;
+    padding-right: 80px;
 }
     /* social-media-marketing styles end */
 
@@ -150,24 +134,22 @@ p {
         clear: both;
         float: right;
         width: 21%;
-        height: 1150px;
+        height: 1200px;
         font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-        background-color: #2589bd;    
+        background-color: #2589bd;
+        text-align: center;    
     }
     .benefits div {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         color: #ffffff;
     }
     
     .benefits div h3 {
-        text-align: center;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 27px;
     }
     
-    .benefits div img {
-        display: block;
-        margin: 10px auto;
+    .benefits div img {        
         max-width: 175px;
     }
     
@@ -175,6 +157,7 @@ p {
         font-size: 20px;
         padding: 20px;
         line-height: 1.25;
+        text-align: left;
     }
     
         /* benefit styles end */

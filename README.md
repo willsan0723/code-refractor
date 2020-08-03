@@ -8,4 +8,6 @@ The headings should be in order. I wasn't sure about the footer, so I changed th
 After all this, I moved on to style to match the image on the course requirements page. I wasn't sure about the footer being visible, since it's not on the mock-up, but I included it anyway since it seems like a good practice. I wasn't able to get the font to match, but I think everything else looks like what they're asking for.
 
 
-![](html-mockup.png)
+![](Screenshot_1.jpg)
+![](Screenshot_2.jpg)
+![](Screenshot_3.jpg)
